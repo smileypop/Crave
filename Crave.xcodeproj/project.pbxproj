@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9376A2221E27369A00DB49D9 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376A2211E27369A00DB49D9 /* Locator.swift */; };
+		9376A2251E27371F00DB49D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9376A2241E27371F00DB49D9 /* CoreLocation.framework */; };
+		9376A2271E273BB200DB49D9 /* Alerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376A2261E273BB200DB49D9 /* Alerter.swift */; };
+		9376A22B1E27444F00DB49D9 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9376A2281E2742E300DB49D9 /* SCLAlertView.framework */; };
+		9376A22D1E274BFA00DB49D9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376A22C1E274BFA00DB49D9 /* Extensions.swift */; };
+		93B5C9CF1E2DD01400AE8931 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5C9CD1E2DD01400AE8931 /* FlickrPhoto.swift */; };
+		93B5C9D01E2DD01400AE8931 /* FlickrSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5C9CE1E2DD01400AE8931 /* FlickrSearchResult.swift */; };
+		93BECC5F1E28846F00BE9BE1 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BECC5E1E28846F00BE9BE1 /* Methods.swift */; };
+		93BECC631E28C80F00BE9BE1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BECC621E28C80F00BE9BE1 /* AudioToolbox.framework */; };
+		93BECC651E29D1F800BE9BE1 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BECC641E29D1F800BE9BE1 /* Networker.swift */; };
+		93BECC691E29DDD200BE9BE1 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BECC681E29DDD200BE9BE1 /* Flickr.swift */; };
+		93BECC6B1E29F41200BE9BE1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BECC6A1E29F41200BE9BE1 /* MapViewController.swift */; };
+		93BECC6D1E29F48000BE9BE1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BECC6C1E29F48000BE9BE1 /* MapKit.framework */; };
 		93F8D3281E25EAEF003CFD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D3271E25EAEF003CFD97 /* AppDelegate.swift */; };
-		93F8D32A1E25EAEF003CFD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D3291E25EAEF003CFD97 /* ViewController.swift */; };
 		93F8D32D1E25EAEF003CFD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F8D32B1E25EAEF003CFD97 /* Main.storyboard */; };
 		93F8D32F1E25EAEF003CFD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F8D32E1E25EAEF003CFD97 /* Assets.xcassets */; };
 		93F8D3321E25EAEF003CFD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F8D3301E25EAEF003CFD97 /* LaunchScreen.storyboard */; };
+		93F8D33A1E25EB2F003CFD97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D3391E25EB2F003CFD97 /* Constants.swift */; };
+		93F8D33C1E25F2EC003CFD97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D33B1E25F2EC003CFD97 /* MainViewController.swift */; };
+		93F8D3451E260D3F003CFD97 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8D3441E260D3F003CFD97 /* ImageViewCell.swift */; };
+		F3679D6E0E020D4B04E17394 /* Pods_Crave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC42675230C6B20ECF78B72 /* Pods_Crave.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9376A2211E27369A00DB49D9 /* Locator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
+		9376A2241E27371F00DB49D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9376A2261E273BB200DB49D9 /* Alerter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerter.swift; sourceTree = "<group>"; };
+		9376A2281E2742E300DB49D9 /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework"; sourceTree = "<group>"; };
+		9376A22C1E274BFA00DB49D9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93B5C9CD1E2DD01400AE8931 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		93B5C9CE1E2DD01400AE8931 /* FlickrSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResult.swift; sourceTree = "<group>"; };
+		93BECC5E1E28846F00BE9BE1 /* Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		93BECC621E28C80F00BE9BE1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		93BECC641E29D1F800BE9BE1 /* Networker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		93BECC681E29DDD200BE9BE1 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		93BECC6A1E29F41200BE9BE1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		93BECC6C1E29F48000BE9BE1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		93F8D3241E25EAEF003CFD97 /* Crave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F8D3271E25EAEF003CFD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93F8D3291E25EAEF003CFD97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93F8D32C1E25EAEF003CFD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93F8D32E1E25EAEF003CFD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F8D3311E25EAEF003CFD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F8D3331E25EAEF003CFD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F8D3391E25EB2F003CFD97 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93F8D33B1E25F2EC003CFD97 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		93F8D3441E260D3F003CFD97 /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		A14C1759B6B793D9B38D721D /* Pods-Crave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crave/Pods-Crave.debug.xcconfig"; sourceTree = "<group>"; };
+		ADC42675230C6B20ECF78B72 /* Pods_Crave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4601718162099C4DD38484C /* Pods-Crave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crave.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crave/Pods-Crave.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BECC6D1E29F48000BE9BE1 /* MapKit.framework in Frameworks */,
+				93BECC631E28C80F00BE9BE1 /* AudioToolbox.framework in Frameworks */,
+				9376A2251E27371F00DB49D9 /* CoreLocation.framework in Frameworks */,
+				F3679D6E0E020D4B04E17394 /* Pods_Crave.framework in Frameworks */,
+				9376A22B1E27444F00DB49D9 /* SCLAlertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C936FD50B44CCAA4F4473DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14C1759B6B793D9B38D721D /* Pods-Crave.debug.xcconfig */,
+				D4601718162099C4DD38484C /* Pods-Crave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9376A2231E27371E00DB49D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BECC6C1E29F48000BE9BE1 /* MapKit.framework */,
+				93BECC621E28C80F00BE9BE1 /* AudioToolbox.framework */,
+				9376A2281E2742E300DB49D9 /* SCLAlertView.framework */,
+				9376A2241E27371F00DB49D9 /* CoreLocation.framework */,
+				ADC42675230C6B20ECF78B72 /* Pods_Crave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B5C9D11E2DD01900AE8931 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93B5C9CD1E2DD01400AE8931 /* FlickrPhoto.swift */,
+				93B5C9CE1E2DD01400AE8931 /* FlickrSearchResult.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		93B5C9D21E2DD05100AE8931 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93F8D3441E260D3F003CFD97 /* ImageViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		93BECC661E29D21200BE9BE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93BECC681E29DDD200BE9BE1 /* Flickr.swift */,
+				9376A2261E273BB200DB49D9 /* Alerter.swift */,
+				93BECC641E29D1F800BE9BE1 /* Networker.swift */,
+				9376A2211E27369A00DB49D9 /* Locator.swift */,
+				93F8D33B1E25F2EC003CFD97 /* MainViewController.swift */,
+				93BECC6A1E29F41200BE9BE1 /* MapViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		93BECC671E29D22E00BE9BE1 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				93F8D3391E25EB2F003CFD97 /* Constants.swift */,
+				93BECC5E1E28846F00BE9BE1 /* Methods.swift */,
+				9376A22C1E274BFA00DB49D9 /* Extensions.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
 		93F8D31B1E25EAEE003CFD97 = {
 			isa = PBXGroup;
 			children = (
 				93F8D3261E25EAEF003CFD97 /* Crave */,
 				93F8D3251E25EAEF003CFD97 /* Products */,
+				9376A2231E27371E00DB49D9 /* Frameworks */,
+				5C936FD50B44CCAA4F4473DC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				93F8D3271E25EAEF003CFD97 /* AppDelegate.swift */,
-				93F8D3291E25EAEF003CFD97 /* ViewController.swift */,
+				93BECC661E29D21200BE9BE1 /* Controllers */,
+				93B5C9D21E2DD05100AE8931 /* Views */,
+				93B5C9D11E2DD01900AE8931 /* Models */,
+				93BECC671E29D22E00BE9BE1 /* Extras */,
 				93F8D32B1E25EAEF003CFD97 /* Main.storyboard */,
 				93F8D32E1E25EAEF003CFD97 /* Assets.xcassets */,
 				93F8D3301E25EAEF003CFD97 /* LaunchScreen.storyboard */,
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93F8D3361E25EAEF003CFD97 /* Build configuration list for PBXNativeTarget "Crave" */;
 			buildPhases = (
+				62B350B3EC8ECCF080E3D9A0 /* [CP] Check Pods Manifest.lock */,
 				93F8D3201E25EAEF003CFD97 /* Sources */,
 				93F8D3211E25EAEF003CFD97 /* Frameworks */,
 				93F8D3221E25EAEF003CFD97 /* Resources */,
+				6910B2DBC1D6733B5BD39BB0 /* [CP] Embed Pods Frameworks */,
+				DB2C12E30EC6E022D3E5ADB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matthew Laird";
 				TargetAttributes = {
 					93F8D3231E25EAEF003CFD97 = {
@@ -132,13 +240,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62B350B3EC8ECCF080E3D9A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6910B2DBC1D6733B5BD39BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crave/Pods-Crave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2C12E30EC6E022D3E5ADB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crave/Pods-Crave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93F8D3201E25EAEF003CFD97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F8D32A1E25EAEF003CFD97 /* ViewController.swift in Sources */,
+				93F8D33C1E25F2EC003CFD97 /* MainViewController.swift in Sources */,
+				93F8D3451E260D3F003CFD97 /* ImageViewCell.swift in Sources */,
+				93BECC5F1E28846F00BE9BE1 /* Methods.swift in Sources */,
+				93B5C9D01E2DD01400AE8931 /* FlickrSearchResult.swift in Sources */,
+				9376A22D1E274BFA00DB49D9 /* Extensions.swift in Sources */,
 				93F8D3281E25EAEF003CFD97 /* AppDelegate.swift in Sources */,
+				9376A2221E27369A00DB49D9 /* Locator.swift in Sources */,
+				93B5C9CF1E2DD01400AE8931 /* FlickrPhoto.swift in Sources */,
+				93F8D33A1E25EB2F003CFD97 /* Constants.swift in Sources */,
+				9376A2271E273BB200DB49D9 /* Alerter.swift in Sources */,
+				93BECC691E29DDD200BE9BE1 /* Flickr.swift in Sources */,
+				93BECC6B1E29F41200BE9BE1 /* MapViewController.swift in Sources */,
+				93BECC651E29D1F800BE9BE1 /* Networker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +349,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +399,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,9 +426,14 @@
 		};
 		93F8D3371E25EAEF003CFD97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14C1759B6B793D9B38D721D /* Pods-Crave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P922UGYKH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+				);
 				INFOPLIST_FILE = Crave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewlaird.Crave;
@@ -270,9 +444,14 @@
 		};
 		93F8D3381E25EAEF003CFD97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4601718162099C4DD38484C /* Pods-Crave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P922UGYKH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+				);
 				INFOPLIST_FILE = Crave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewlaird.Crave;
@@ -300,6 +479,7 @@
 				93F8D3381E25EAEF003CFD97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
